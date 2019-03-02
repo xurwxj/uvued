@@ -4,9 +4,11 @@ import createRouter from './router'
 import './plugins/element.js'
 import './plugins/meta.js'
 import createI18n from './i18n'
+import NoSSR from 'vue-no-ssr'
+Vue.component('no-ssr', NoSSR)
 
 if (process.client) {
-  require('./plugins/uploader.js');
+  require('./plugins/uploader.js')
 }
 
 Vue.config.productionTip = false

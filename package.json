@@ -33,6 +33,7 @@
     "vue-cli-plugin-element": "^1.0.1",
     "vue-i18n": "^8.8.1",
     "vue-meta": "^1.5.8",
+    "vue-no-ssr": "^1.1.1",
     "vue-progressbar": "^0.7.5",
     "vue-router": "^3.0.1",
     "vue-simple-uploader": "^0.7.0",

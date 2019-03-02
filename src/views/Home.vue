@@ -57,9 +57,6 @@ export default {
     uploadDesignFileSuccess(rootFile, file, message, chunk) {
       console.log(message);
     }
-  },
-  mounted() {
-    console.log(pub.cdnUrl);
   }
 };
 </script>
